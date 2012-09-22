@@ -620,14 +620,18 @@ textarea{
 	
 	#download-section a{
 		float:left;
-		width:33%;
+		width:29%;
+		margin-right:2%;
+
 	}
 	
 	#download-section a:first-child{
-		margin-right:4%;
+		
+		margin-left: 5%;
 	}
 	
 	#download-section a:last-child{
+		
 		margin-right:0%;
 	}
 
