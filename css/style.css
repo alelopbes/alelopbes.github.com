@@ -104,9 +104,9 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 }
 
 #title{
-	color:white;
+	color:#c9c9c9;
 	font-family:'ChunkFiveRegular';
-	font-weight:#c9c9c9;
+	font-weight:normal;
 	font-size:3em;
 	margin-bottom:20px;
 }
