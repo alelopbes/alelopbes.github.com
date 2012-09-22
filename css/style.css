@@ -51,7 +51,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 
 
-
+/*
 @font-face {
     font-family: 'ChunkFiveRegular';
     src: url('fonts/Chunkfive-webfont.eot');
@@ -73,6 +73,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 
 @font-face {
@@ -142,6 +143,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 }
 
 #title{
+
 	color:black;
 	font-family:'ComfortaaRegular';
 	font-weight:normal;
