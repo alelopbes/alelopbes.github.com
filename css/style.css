@@ -146,15 +146,17 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 	color:black;
 	font-family: 'ComfortaaRegular';
-	font-weight:normal;
-	font-size:3em;
-	margin-bottom:20px;
+	
+	font-size:2.5em;
+	margin-bottom:0px;
+	margin-top: 45px;
 }
 
 #header-container h2{
 	color:black;
 	font-family: 'ComfortaaThin';
 	font-size:16px;
+	margin: 8px 0 0 0;
 }
 
 #header-container header{
