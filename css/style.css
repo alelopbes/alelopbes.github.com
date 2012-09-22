@@ -93,18 +93,18 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 13px solid #f3f3f3; }
+#header-container{ border-bottom: 13px solid white; }
 #footer-container{ border-top:    20px solid #e44d26; }
 #main aside      { border-top:    20px solid #e44d26; }
 
 #header-container,
 #footer-container,
 #main aside{
-	background:#f3f3f3;
+	background:white;
 }
 
 #title{
-	color:#c9c9c9;
+	color:black;
 	font-family:'ChunkFiveRegular';
 	font-weight:normal;
 	font-size:3em;
@@ -445,9 +445,12 @@ textarea{
    ==================== */
 
 	#header-container{
+		
+		/*
 		-webkit-box-shadow:0 5px 8px rgba(0, 0, 0, 0.15);
-		   -moz-box-shadow:0 5px 8px rgba(0, 0, 0, 0.15);
-		        box-shadow:0 5px 8px rgba(0, 0, 0, 0.15);
+		-moz-box-shadow:0 5px 8px rgba(0, 0, 0, 0.15);
+		     box-shadow:0 5px 8px rgba(0, 0, 0, 0.15);
+		*/
 	}
 
 	#header-container header{
