@@ -221,7 +221,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 
 .separator{
-	font-family:ComfortaaBold;
+	font-family: 'ComfortaaThin';
 	text-align:center;
 	font-weight:normal;
 	font-size:3em;
@@ -318,7 +318,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 #download-section a
 {
 	font-weight:normal;
-	font-family:ComfortaaRegular;
+	font-family: 'ComfortaaRegular';
 	font-size:2em;
 	color:white;
 	margin:0;
@@ -381,7 +381,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 .customize-section h3{
 	text-align:center;
 	font-weight:normal;
-	font-family:ComfortaaBold;
+	font-family: 'ComfortaaThin';
 	font-size:2em;
 }
 
@@ -420,7 +420,7 @@ textarea{
 
 #about-container h3{
 	font-weight:normal;
-	font-family:ComfortaaBold;
+	font-family: 'ComfortaaThin';
 	font-size:2em;
 }
 
