@@ -136,15 +136,22 @@ body{ font:16px/26px ComfortaaRegular; }
 #footer-container{ border-top:    1px solid gainsboro; }
 #main aside      { border-top:    1px solid gainsboro; }
 
-#header-container,
+
+#header-container {
+
+	background:black;
+
+}
+
 #footer-container,
 #main aside{
 	background:white;
 }
 
+
 #title{
 
-	color:black;
+	color:white;
 	font-family: 'ComfortaaRegular';
 	
 	font-size:2.5em;
@@ -154,7 +161,7 @@ body{ font:16px/26px ComfortaaRegular; }
 }
 
 #header-container h2{
-	color:black;
+	color:white;
 	font-family: 'ComfortaaRegular';
 	font-size:16px;
 	margin: 8px 0 0 0;
@@ -678,7 +685,7 @@ textarea{
 		display:block;
 		margin:auto;
 		margin-left: 276%;
-		margin-top: 5%;
+		margin-top: 7%;
 
 	}
 
