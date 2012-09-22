@@ -765,7 +765,8 @@ textarea{
 
 
 	#about-container article{
-		width:530px;
+		width:100%;
+		text-align: justify;
 	}
 
 	#github-container{
