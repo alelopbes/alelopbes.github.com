@@ -701,6 +701,7 @@ textarea{
 	}
 	#intro h2{
 		font-family: 'ComfortaaRegular'
+		text-align: justify;
 	}
 
 	#intro #badges{
