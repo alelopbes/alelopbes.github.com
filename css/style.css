@@ -608,6 +608,13 @@ textarea{
 	.second-h5bp-label{
 		display:block;
 	}
+
+	#intro h2{
+		
+		font-family: 'ComfortaaRegular';
+		text-align: justify;
+	}
+
 	
 	#download-section a{
 		float:left;
@@ -631,6 +638,8 @@ textarea{
 	#about-container article{
 		width:100%;
 	}
+
+
 
 	#github-container{
 		margin:auto;
@@ -712,7 +721,7 @@ textarea{
 
 	#intro #badges{
 /* 		width:44%; */
-	font-family: 'ComfortaaRegular';
+
 	}
 
 	.separator:before,
