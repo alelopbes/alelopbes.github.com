@@ -284,13 +284,13 @@ body{ font:16px/26px ComfortaaRegular; }
 .initializr-background button,
 .initializr-background a,
 #download-section a{
-	background:#F16529;
+	background:black;
 }
 
 .initializr-background button:hover,
 .initializr-background a:hover,
 #download-section a:hover{
-	background:#F67539;
+	background:gainsboro;
 }
 
 .initializr-background button:active{
@@ -620,7 +620,7 @@ textarea{
 	
 	#download-section a{
 		float:left;
-		width:48%;
+		width:33%;
 	}
 	
 	#download-section a:first-child{
@@ -684,7 +684,7 @@ textarea{
 	#html5-logo-container img{
 		display:block;
 		margin:auto;
-		margin-left: 276%;
+		margin-left: 283%;
 		margin-top: 7%;
 
 	}
