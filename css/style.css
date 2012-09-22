@@ -670,6 +670,7 @@ textarea{
 		display:block;
 		float:left;
 		width:20%;
+		height: 114px;
 
 	}
 
@@ -677,6 +678,8 @@ textarea{
 		display:block;
 		margin:auto;
 		margin-left: 276%;
+		margin-top: 5%;
+
 	}
 
 	#follow-iframes-container{
