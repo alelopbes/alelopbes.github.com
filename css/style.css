@@ -121,7 +121,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     Author: Jonathan Verrecchia
    =================================================== */
 
-body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
+body{ font:16px/26px ComfortaaRegular; }
 
 .wrapper{
 	width:90%;
@@ -608,13 +608,6 @@ textarea{
 	.second-h5bp-label{
 		display:block;
 	}
-
-	#intro h2{
-		
-		font-family: 'ComfortaaRegular';
-		text-align: justify;
-	}
-
 	
 	#download-section a{
 		float:left;
