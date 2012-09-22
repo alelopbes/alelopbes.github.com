@@ -93,7 +93,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 13px solid #c9c9c9; }
+#header-container{ border-bottom: 13px solid #f3f3f3; }
 #footer-container{ border-top:    20px solid #e44d26; }
 #main aside      { border-top:    20px solid #e44d26; }
 
