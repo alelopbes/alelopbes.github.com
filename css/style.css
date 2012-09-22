@@ -145,7 +145,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 #title{
 
 	color:black;
-	font-family: 'ComfortaaRegular';
+	font-family: 'ComfortaaBold';
 	
 	font-size:2.5em;
 	margin-bottom:0px;
@@ -154,7 +154,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 #header-container h2{
 	color:black;
-	font-family: 'ComfortaaThin';
+	font-family: 'ComfortaaRegular';
 	font-size:16px;
 	margin: 8px 0 0 0;
 }
@@ -224,7 +224,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 
 .separator{
-	font-family: 'ComfortaaThin';
+	font-family: 'ComfortaaRegular';
 	text-align:center;
 	font-weight:normal;
 	font-size:3em;
@@ -384,7 +384,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 .customize-section h3{
 	text-align:center;
 	font-weight:normal;
-	font-family: 'ComfortaaThin';
+	font-family: 'ComfortaaRegular';
 	font-size:2em;
 }
 
@@ -423,7 +423,7 @@ textarea{
 
 #about-container h3{
 	font-weight:normal;
-	font-family: 'ComfortaaThin';
+	font-family: 'ComfortaaRegular';
 	font-size:2em;
 }
 
@@ -700,7 +700,7 @@ textarea{
 /* 		width:56%; */
 	}
 	#intro h2{
-		font-family: 'ComfortaaThin'
+		font-family: 'ComfortaaRegular'
 	}
 
 	#intro #badges{
