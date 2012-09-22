@@ -284,7 +284,7 @@ body{ font:16px/26px ComfortaaRegular; }
 .initializr-background button,
 .initializr-background a,
 #download-section a{
-	background:black;
+	background: black;
 }
 
 .initializr-background button:hover,
@@ -418,7 +418,7 @@ textarea{
 }
 
 #download-section a{
-	background:#F16529;
+	background:black;
 	display:block;
 	text-decoration:none;
 	margin-bottom:20px;
@@ -627,6 +627,10 @@ textarea{
 		margin-right:4%;
 	}
 	
+	#download-section a:last-child{
+		margin-right:0%;
+	}
+
 	#about-container{
 		/*
 		-webkit-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
