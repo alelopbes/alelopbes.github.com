@@ -701,7 +701,10 @@ textarea{
 	
 	#intro p{
 /* 		width:56%; */
+	font-family: 'ComfortaaRegular';
+	
 	}
+
 	#intro h2{
 		font-family: 'ComfortaaRegular';
 		text-align: justify;
@@ -709,6 +712,7 @@ textarea{
 
 	#intro #badges{
 /* 		width:44%; */
+	font-family: 'ComfortaaRegular';
 	}
 
 	.separator:before,
