@@ -133,8 +133,8 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
    =================== */
 
 #header-container{ border-bottom: 1px solid gainsboro; }
-#footer-container{ border-top:    20px solid #e44d26; }
-#main aside      { border-top:    20px solid #e44d26; }
+#footer-container{ border-top:    1px solid gainsboro; }
+#main aside      { border-top:    1px solid gainsboro; }
 
 #header-container,
 #footer-container,
@@ -619,10 +619,13 @@ textarea{
 	}
 	
 	#about-container{
+		/*
 		-webkit-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
 		   -moz-box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
 		        box-shadow:	inset 0 10px 15px rgba(0, 0, 0, 0.1);
-	
+		*/
+
+		border-top:    1px solid gainsboro; 
 	}
 
 	#about-container article{
