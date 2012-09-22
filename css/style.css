@@ -132,7 +132,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
     ALL: Orange Theme
    =================== */
 
-#header-container{ border-bottom: 0px solid black; }
+#header-container{ border-bottom: 1px solid gainsboro; }
 #footer-container{ border-top:    20px solid #e44d26; }
 #main aside      { border-top:    20px solid #e44d26; }
 
@@ -149,7 +149,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 	
 	font-size:2.5em;
 	margin-bottom:0px;
-	margin-top: 45px;
+	margin-top: 18px;
 }
 
 #header-container h2{
@@ -498,7 +498,7 @@ textarea{
 
 	#header-container header{
 		text-align:left;
-		height:133px;
+		height:114px;
 	}
 	
 	
@@ -562,7 +562,7 @@ textarea{
 		color:white;
 	}
 
-	#intro p{
+	#initializr-background p{
 /* 		float:left; */
 	margin-right:285px;
 	}
@@ -698,6 +698,9 @@ textarea{
 	
 	#intro p{
 /* 		width:56%; */
+	}
+	#intro h2{
+		font-family: 'ComfortaaRegular'
 	}
 
 	#intro #badges{
