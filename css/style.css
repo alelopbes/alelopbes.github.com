@@ -100,13 +100,13 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 #header-container,
 #footer-container,
 #main aside{
-	background:#f16529;
+	background:#f3f3f3;
 }
 
 #title{
 	color:white;
 	font-family:'ChunkFiveRegular';
-	font-weight:normal;
+	font-weight:#c9c9c9;
 	font-size:3em;
 	margin-bottom:20px;
 }
@@ -607,6 +607,8 @@ textarea{
 	#title-container{
 		float:left;
 		width:40%;
+		margin-top: 1em;
+
 	}
 	
 	#html5-logo-container{
