@@ -121,7 +121,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     Author: Jonathan Verrecchia
    =================================================== */
 
-body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
+body{ font:16px/26px 'ComfortaaRegular', Arial, sans-serif; }
 
 .wrapper{
 	width:90%;
@@ -144,7 +144,7 @@ body{ font:16px/26px Helvetica, Helvetica Neue, Arial; }
 
 #title{
 
-	color:red;
+	color:black;
 	font-family: 'ComfortaaRegular';
 	font-weight:normal;
 	font-size:3em;
