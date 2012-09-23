@@ -115,10 +115,10 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* @font-face kit by Fonts2u (http://www.fonts2u.com) */ 
 @font-face {
 	font-family:"Decker";
-	src:url("Decker.eot?") format("eot"),
-		url("Decker.woff") format("woff"),
-		url("Decker.ttf") format("truetype"),
-		url("Decker.svg#") format("svg");
+	src:url("fonts/Decker.eot?") format("eot"),
+		url("fonts/Decker.woff") format("woff"),
+		url("fonts/Decker.ttf") format("truetype"),
+		url("fonts/Decker.svg#") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
