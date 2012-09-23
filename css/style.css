@@ -525,7 +525,9 @@ textarea{
 
 	#title-container{
 		//float:left;
-		width:63%;
+		//width:63%;
+		margin-top: 2.5%;
+		margin-left: 50%;
 	}
 	
 	#html5-logo-container{
