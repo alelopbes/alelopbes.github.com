@@ -524,7 +524,7 @@ textarea{
 	*/
 
 	#title-container{
-		float:left;
+		//float:left;
 		width:63%;
 	}
 	
@@ -674,9 +674,10 @@ textarea{
 @media only screen and (min-width: 860px) {
 
 	#title-container{
-		float:left;
-		width:31%;
-		margin-top: 1em;
+		//float:left;
+		//width:31%;
+		margin-top: 2.5%;
+		margin-left: 50%;
 
 	}
 	
