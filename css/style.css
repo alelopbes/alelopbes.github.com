@@ -125,7 +125,7 @@ body{ font:16px/26px ComfortaaRegular; }
 
 .wrapper{
 	width:90%;
-	margin:0 5%;
+	margin:0 5% -15% 0;
 }
 
 /* ===================
@@ -526,7 +526,7 @@ textarea{
 	#title-container{
 		//float:left;
 		//width:63%;
-		margin-top: 3%;
+		//margin-top: 3%;
 		margin-left: 50%;
 	}
 	
@@ -678,7 +678,7 @@ textarea{
 	#title-container{
 		//float:left;
 		//width:31%;
-		margin-top: 2.5%;
+		//margin-top: 2.5%;
 		margin-left: 50%;
 
 	}
