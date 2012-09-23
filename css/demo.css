@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+/*
 html {
   background: #222 url("bg.png") repeat;
 }
@@ -38,6 +39,7 @@ p,h3,h4,pre {
   max-width: 540px;
   margin: 0 auto 20px;
   }
+  */
 
 .rslides {
   margin: 0 auto 40px;
@@ -119,7 +121,7 @@ a {
   font-size: 11px;
   }
 
-/* Callback example */
+/* Callback example 
 
 h3 {
   font: 20px/30px "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -205,6 +207,7 @@ h3 {
   background-position: right top;
   right: 0;
   }
+  */
 
 @media screen and (max-width: 600px) {
   h1 {
