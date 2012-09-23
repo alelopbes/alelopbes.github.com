@@ -155,7 +155,7 @@ body{ font:16px/26px ComfortaaRegular; }
 	
 	font-size:2em;
 	margin-bottom:0px;
-	margin-top: 18px;
+	margin-top: 0.6em;
 	text-align: left;
 }
 
@@ -691,9 +691,9 @@ textarea{
 	#html5-logo-container img{
 		display:block;
 		//margin:auto;
-		//margin-left: 283%;
-		margin-top: 2%;
-		height: 109px;
+		margin-left: 31px;
+		margin-top: 6%;
+		height: 55px;
 
 	}
 
