@@ -164,7 +164,7 @@ body{ font:16px/26px ComfortaaRegular; }
 	font-family: 'ComfortaaRegular';
 	font-size:16px;
 	margin: 8px 0 0 0;
-	text-align: center;
+	text-align: left;
 }
 
 #header-container header{
@@ -682,7 +682,7 @@ textarea{
 	
 	#html5-logo-container{
 		display:block;
-		float:left;
+		float:right;
 		width:20%;
 		height: 114px;
 
