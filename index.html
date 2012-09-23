@@ -21,6 +21,11 @@
 	<script type="text/javascript" src="//use.typekit.net/fgm1xrf.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+	
+	<!--Slider-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script src="responsiveslides.min.js"></script>
+
 
 </head>
 <body>
@@ -187,6 +192,20 @@
 				<p>Initializr is here to kick-start the development of your new projects. It generates templates based on HTML5 Boilerplate
 				by allowing you to choose which parts you want or don't want from it. A <a href="http://verekia.com/initializr/responsive-template" target="_blank">responsive template</a> has also been added to start
 				from a basic design instead of a blank page.
+
+
+				<ul class="rslides">
+				  <li><img src="1.jpg" alt="" /></li>
+				  <li><img src="2.jpg" alt="" /></li>
+				  <li><img src="3.jpg" alt="" /></li>
+				</ul>
+
+				<script>
+				  $(function () {
+				    $(".rslides").responsiveSlides();
+				  });
+				</script>
+
 
 				<h3>HTML5 Boilerplate</h3>
 				<p>"H5BP" is here to handle the boring stuff you don't want to deal with. It provides a rock-solid default code
