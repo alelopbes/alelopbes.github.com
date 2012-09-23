@@ -151,7 +151,7 @@ body{ font:16px/26px ComfortaaRegular; }
 #title{
 
 	color:white;
-	font-family: 'ComfortaaRegular';
+	font-family: 'report';
 	
 	font-size:2.5em;
 	margin-bottom:0px;
@@ -161,7 +161,7 @@ body{ font:16px/26px ComfortaaRegular; }
 
 #header-container h2{
 	color:white;
-	font-family: 'ComfortaaRegular';
+	font-family: 'report';
 	font-size:16px;
 	margin: 8px 0 0 0;
 	text-align: left;
