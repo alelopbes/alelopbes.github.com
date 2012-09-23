@@ -134,7 +134,7 @@ table { border-collapse: collapse; border-spacing: 0; }
     Author: Jonathan Verrecchia
    =================================================== */
 
-body{ font:16px/26px Helvetica; }
+body{ font:16px/26px Decker; }
 
 .wrapper{
 	width:90%;
@@ -745,8 +745,11 @@ textarea{
 	}
 
 	#intro h2{
+
 		font-family: 'Decker';
 		text-align: justify;
+		letter-spacing: 1pt;
+		line-height: 22pt;
 	}
 
 	#intro #badges{
