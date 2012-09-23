@@ -869,10 +869,17 @@ textarea{
   }
 
 
+  .slide_container {
+
+  	margin-bottom: 50px;
+	position: relative;
+	float: left;
+	width: 100%;
+
+}
 
 
 
-  
 
 
 /* =============================================================================
