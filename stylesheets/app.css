@@ -1,0 +1,254 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+
+
+
+/* SPACES-----------------------------*/
+
+
+.space-by-one {
+
+	height: 8px;
+}
+
+.space-by-two {
+
+	height: 16px;
+}
+
+.space-by-three {
+
+	height: 24px;
+}
+
+
+.space-by-four {
+
+	height: 32px;
+}
+
+.space-by-five {
+
+	height: 40px;
+}
+
+.space-by-seven {
+
+	height: 56px;
+}
+
+.space-by-eight {
+
+	height: 64px;
+}
+
+
+.space-by-ten {
+
+	height: 80px;
+}
+
+
+/*------------------------------*/
+
+
+
+.image-margin {
+
+	background-color: #353535;	
+   	bottom:	0px;
+   	width: 100%;
+
+}
+
+
+.image-wrapper {
+
+	background-image: url('../images/foundation/image.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	border-top: 8px solid #353535;
+	border-bottom: 8px solid #353535;
+
+	padding-top: 0%;
+	padding-bottom: 5%;
+
+}
+
+.header-line {
+
+	border-bottom: 8px solid #353535;
+
+}
+
+.icon-square {
+
+	padding: 15px;
+	background-color: #353535;
+	height: 140px;
+
+}
+
+.icon-square.small {
+
+	height: 104px;
+
+}
+
+.separator {
+
+	height: 1px;
+	background-color: #b0b0b0;
+
+}
+
+.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
+    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
+}
+
+.grayscale:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+.link-none {
+
+ 	color:white;
+
+ }
+
+ .link-none:hover {
+
+ 	color:white;
+
+ }
+
+ .panel {
+
+ 	padding: 5px;
+
+ }
+
+.text {
+
+	font-family: Georgia;
+	text-align: left;
+	text-align: left;
+	font-size: 14px;
+	line-height: 24px;
+
+	
+
+
+}
+
+.text-title {
+
+	font-family: Georgia;		
+	text-align: left;
+	font-size: 22px;
+	font-weight: bold;
+	
+
+
+}
+
+.text-button {
+
+	font-family: Georgia;
+	text-align: center;
+	font-size: 18px;
+	color:white;
+	font-style: italic;
+	line-height: 200px;
+
+}
+
+.text-button.small {
+
+	
+	line-height: 135px;
+
+}
+
+
+.orbit {
+
+	margin-bottom: 0px;
+}
+
+
+
+/* -----------------------------------------
+   Page Name 1
+----------------------------------------- */
+
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
+
+@media only screen and (max-width: 767px) {
+
+  /* Small Device Styles here */
+
+			  .image-wrapper {
+
+				background-image: url('../images/foundation/image.jpg');
+				background-size: 100%;
+				background-repeat: no-repeat;
+				border-top: 8px solid #353535;
+				border-bottom: 8px solid #353535;
+
+				padding-top: 1%;
+				padding-bottom: 3%;
+
+			}
+
+			.icon-square {
+
+				padding: 0px;
+				background-color: #353535;
+				margin-bottom: 14px;
+				height: 44px;
+
+			}
+
+
+			.text-button {
+
+				font-family: Georgia;
+				text-align: left;
+				text-align: left;
+				font-size: 18px;
+				color:white;
+				font-style: italic;
+				text-indent: 30px;
+				line-height: 50px;
+				
+
+
+			}
+
+}
