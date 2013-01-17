@@ -121,7 +121,7 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: @color;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 700;
 	text-align: center;
 	line-height: 112px;
@@ -211,6 +211,7 @@ body {
 	text-align: center;
 	line-height: 72px;
 	text-shadow: 0 -1px rgba(0,0,0,0.1);
+
 	
 }
 
@@ -256,7 +257,9 @@ body {
 	text-align: center;
 	background-image: url('../images/foundation/grey_button.png');
 	background-repeat: no-repeat;
-	background-position-x: 32px;
+	background-position-x: 50%;
+	background-position: 50% 0;
+
 }
 
 .big-button:hover {
@@ -289,6 +292,9 @@ body {
 	background-image: url('../images/foundation/red_button_press.png');
 	
 }
+
+
+
 
 
 
@@ -347,6 +353,46 @@ body {
 
 
 
+
+.animation-button {
+
+	position: relative;
+	z-index: 50;
+
+
+}
+
+
+.animation-button-text {
+
+	font-weight: 400;
+	letter-spacing: 0pt;
+	color:#717171;
+	z-index: 0;
+	top: 175px;
+	position: relative;
+
+	text-align: center;
+
+
+	
+}
+
+.animation-link {
+
+	opacity:1;
+	-webkit-transition: opacity 0.4s linear;
+	-moz-transition:opacity 1s linear;
+
+}
+
+
+.animation-link:hover {
+
+	opacity:0.2;
+}
+
+
 /*----FOOTER--------------------------*/
 
 
@@ -372,8 +418,8 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: #e23229;
-	font-size: 24px;
-	font-weight: 700;
+	font-size: 1.6em;
+	font-weight: 500;
 	letter-spacing: 1pt;
 	text-align: center;	
 	text-shadow: 0 1px rgba(255,255,255,0.5);
@@ -381,10 +427,17 @@ body {
 }
 
 
+.text.paragraph {
+
+	line-height: 38px;
+	color:#717171
+}
+
 
 .text.big {
 
-	font-size: 32px;
+	font-size: 2em;
+	font-weight: 700;
 
 
 }
@@ -392,9 +445,18 @@ body {
 .text.description {
 
 	text-align: left;
+	font-weight: 400;
+	letter-spacing: 0pt;
+	color:#717171;
 }
 
 
+.text.brown {
+
+	color:#717171
+
+
+}
 
 
 
@@ -435,8 +497,8 @@ body {
 
 	//background-image: url('../images/foundation/image.jpg');
 	//background-color: #2797E2;
-	background-size: 100%;
-	background-repeat: no-repeat;
+	//background-size: 100%;
+	//background-repeat: no-repeat;
 	//border-top: 4px solid #353535;
 	//border-bottom: 2px solid #353535;
 
@@ -447,9 +509,17 @@ body {
 
 
 
+.twelve.mobile-four.columns.animation-button.animation-button {
+
+	padding: 0px;
+
+}
 
 
-/*------IMAGES------------------------*/
+
+
+
+/*------LINKS------------------------*/
 
 .link-none {
 
@@ -463,6 +533,7 @@ body {
 
  }
 
+ 
 
 
 
@@ -470,54 +541,17 @@ body {
 
 
 
-.header-line {
 
-	border-bottom: 8px solid #353535;
 
-}
 
-.icon-square {
 
-	
-	background-color: #353535;
-	height: 25%;
-	width: 100%;
 
-}
 
-.icon-square.small {
+/*------OLD------------------------*/
 
-	height: 104px;
 
-}
 
-.icon-square.smallest {
 
-	height: 30px;
-	width: 100%;
-	padding: 0px;
-
-}
-
-.separator {
-
-	height: 1px;
-	background-color: #d4d4d4;
-
-}
-
-.grayscale {
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+, IE10 */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-    -webkit-transition: all .6s ease; /* Fade to color for Chrome and Safari */
-    -webkit-backface-visibility: hidden; /* Fix for transition flickering */
-}
-
-.grayscale:hover {
-    filter: none;
-    -webkit-filter: grayscale(0%);
-}
 
 
  .panel {
@@ -527,63 +561,6 @@ body {
 
  }
 
-
-
-
-
-.text-button {
-
-	font-family: Georgia;
-	text-align: center;
-	font-size: 18px;
-	color:white;
-	font-style: italic;
-
-	padding-top: 70%;
-	padding-bottom: 5%;
-
-}
-
-.text-button.small {
-
-	
-	line-height: 25px;
-
-}
-
-.footer-text {
-
-	font-size:14px;	
-	color: white;
-	line-height: 50px;
-}
-
-
-.footer-link {
-	
-	font-family: Georgia;
-	font-size:16px;	
-	color:#646464;
-	text-shadow: 0 -1px 0 rgba(0,0,0,0.4), 0 1px 0 rgba(255,255,255,0.2);
-	padding-top: 40px; 
-}
-
-.footer-logo {
-
-	margin-top: 14px;
-
-}
-
-.text-button.smallest {
-
-	font-size: 14px;
-	line-height: 32px;
-	text-indent: 0px;
-	text-align: center;
-
-
-
-}
 
 
 .orbit {
@@ -605,7 +582,6 @@ body {
 ----------------------------------------- */
 
 
-
 @media only screen and (max-width: 767px) {
 
   /* Small Device Styles here */
@@ -614,9 +590,10 @@ body {
 
   			.icon-text {
 
-  					margin-left: 0px;
+  					margin-left: -15px;
   					line-height: 0px;
   					margin-top: 15px;
+  					text-align: center;
 
   			}
 
@@ -630,43 +607,61 @@ body {
 
   			.header {
 
-					height: 60px;
+					height: 70px;
 					
 
 			}
 
+			.big-button {
+
+				background-position-y: 50%;
+				background-position-x: 50%;
+			}
+
+			.text.paragraph {
+
+				line-height: 28px;
+			}
 
 
-
-
-
-			.icon-square {
+			.twelve.mobile-four.columns.animation-button.animation-button {
 
 				padding: 0px;
-				background-color: #353535;
-				margin-bottom: 14px;
-				height: 44px;
-
-			}
 
 
-			.text-button {
-
-				font-family: Georgia;
-				text-align: left;
-				text-align: left;
-				font-size: 18px;
-				color:white;
-				font-style: italic;
-				text-indent: 30px;
-				line-height: 50px;
-			
-
-			}
-
-			.text {
 				
-				font-size: 18px;
+			}
+
+			.twelve.mobile-four.columns.text.animation-button-text.brown {
+
+				padding: 0px;
+
+			}
+
+
+			.animation-button-text {
+
+				text-align: left;
+				z-index: 0;
+				top:0px;
+				margin-bottom: 12px;
+
+
+				
+			}
+
+			.white-space-100 {
+
+				height: 70px;
+			}
+
+
+			.center-buttons-header {
+
+				top:16%;
+				left:0%;
+				text-align: center;
+
 
 			}
 
