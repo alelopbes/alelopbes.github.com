@@ -196,6 +196,13 @@ body {
 
 
 
+.icon-text.brown { 
+	
+	color:#717171
+
+}
+
+
 /*----BUTTONS--------------------------*/
 
 
@@ -594,6 +601,16 @@ body {
   					line-height: 0px;
   					margin-top: 15px;
   					text-align: center;
+
+  			}
+
+  			.icon-text.centered {
+
+  					margin-left: 0px;
+  					line-height: 0px;
+  					margin-top: 0px;
+  					text-align: center;
+
 
   			}
 
