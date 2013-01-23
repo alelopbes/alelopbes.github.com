@@ -96,6 +96,19 @@ body {
 
 
 
+
+/*---COLORS---------------------------*/
+
+.red-bck {
+
+
+	background-color: #e6332a;
+
+
+}
+
+
+
 /*---HEADER---------------------------*/
 
 
@@ -108,7 +121,6 @@ body {
 	width: 100%;
 	position: fixed;
 	height: 100px;
-	//background-color: #ececec;
 	background-color: #e6332a;
 	background-image: url('../images/foundation/BG.png');
 	z-index: 100;
@@ -533,6 +545,24 @@ body {
  	color:white;
 
  }
+
+ .link-none.english {
+
+ 	color:#a4241e;
+
+ }
+
+ .link-none.english.small {
+
+ 	color:#a4241e;
+ 	margin-left: 34%;
+ 	font-size: 1.1em;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 700;
+ 	letter-spacing: 1pt;
+
+ }
+
 
  .link-none:hover {
 
