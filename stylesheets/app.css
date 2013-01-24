@@ -78,21 +78,25 @@ body {
 
 .white-space-100 {
 
-	height: 100px;
+	height: 68px;
 
 
 }
 
 .base-space {
 
-	height: 64px;
+	height: 60px;
 }
 
 .half-base-space {
 
-	height: 32px;
+	height: 30px;
 }
 
+.base-space.minus-margin {
+
+	height: 40px;
+}
 
 
 
@@ -120,12 +124,22 @@ body {
 
 	width: 100%;
 	position: fixed;
-	height: 100px;
+	height: 68px;
 	background-color: #e6332a;
 	background-image: url('../images/foundation/BG.png');
 	z-index: 100;
 
 }
+
+
+.false-header{
+
+	height: 70px;
+	background-color: #e6332a;
+	background-image: url('../images/foundation/BG.png');
+	
+
+} 
 
 
 .header-button {
@@ -136,7 +150,7 @@ body {
 	font-size: 1em;
 	font-weight: 700;
 	text-align: center;
-	line-height: 112px;
+	line-height: 76px;
 	letter-spacing: 0.75pt;
 	
 
@@ -183,8 +197,8 @@ body {
 
 .icon-title {
 
-	text-align: center;
-
+	//text-align: center;
+	padding-left: 25%;
 }
 
 
@@ -194,12 +208,12 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: #e92e33;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 700;
 	text-align: left;
 	line-height: 30px;
 	letter-spacing: 1pt;
-	margin-left: 15%;
+	//margin-left: 22%;
 	white-space: nowrap;
 
 
@@ -314,6 +328,12 @@ body {
 
 
 
+.three.columns.centered.padding-button, .three.columns.pull-three.padding-button, .three.columns.push-three.padding-button {
+
+	padding: 0px;
+
+
+}
 
 
 
@@ -426,6 +446,12 @@ body {
 
 }
 
+.contact-footer.red {
+
+		background-color: #e6332a;
+
+
+}
 
 
 
@@ -437,11 +463,17 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: #e23229;
-	font-size: 1.6em;
+	font-size: 1.4em;
 	font-weight: 500;
 	letter-spacing: 1pt;
 	text-align: center;	
 	text-shadow: 0 1px rgba(255,255,255,0.5);
+
+}
+
+.white {
+
+	color:white;
 
 }
 
@@ -455,7 +487,7 @@ body {
 
 .text.big {
 
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight: 700;
 
 
@@ -559,6 +591,8 @@ body {
  	font-family: 'Raleway', sans-serif;
  	font-weight: 700;
  	letter-spacing: 1pt;
+ 	text-align: right;
+ 	line-height: 70px;
 
 
  }
@@ -615,6 +649,8 @@ body {
 
 
 
+
+
 /* -----------------------------------------
    Page Name 1
 ----------------------------------------- */
@@ -635,10 +671,10 @@ body {
 
   			.icon-text {
 
-  					margin-left: -10%;
+  					//margin-left: -10%;
   					line-height: 0px;
   					margin-top: 15px;
-  					text-align: center;
+  					//text-align: center;
 
   			}
 
@@ -720,7 +756,15 @@ body {
 
 			}
 
-			
+
+			.image-center-header-logo {
+
+				top:16%;
+				left:1%;
+
+			}
+
+
 }
 
 @media only screen and (max-width: 1279px) and (min-width: 768px) {
