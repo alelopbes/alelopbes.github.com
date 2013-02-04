@@ -865,6 +865,19 @@ body {
 
 			}
 
+			.icon-title {
+
+				padding-left: 0px;
+
+			}
+			.icon-text {
+
+				padding-left: 0px;
+				margin-left: 25px;
+				font-size: 0.3em;
+
+			}
+
 
 
 			.center-buttons-header {
