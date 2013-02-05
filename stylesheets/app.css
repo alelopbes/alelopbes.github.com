@@ -451,15 +451,15 @@ body {
 .animation-link {
 
 	opacity:1;
-	-webkit-transition: opacity 0.4s linear;
-	-moz-transition:opacity 1s linear;
+	-webkit-transition: opacity 0.2s linear;
+	-moz-transition:opacity 0.2s linear;
 
 }
 
 
 .animation-link:hover {
 
-	opacity:0.2;
+	opacity:0.1;
 }
 
 
