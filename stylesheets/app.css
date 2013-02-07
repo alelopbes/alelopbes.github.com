@@ -100,7 +100,7 @@ body {
 
 .white-space-100 {
 
-	height: 58px;
+	height: 68px;
 
 
 }
@@ -146,7 +146,7 @@ body {
 
 	width: 100%;
 	position: fixed;
-	height: 58px;
+	height: 68px;
 	background-color: #e6332a;
 	background-image: url('../images/foundation/BG.png');
 	z-index: 100;
@@ -169,10 +169,10 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: @color;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight: 700;
 	text-align: center;
-	line-height: 66px;
+	line-height: 76px;
 	letter-spacing: 0.75pt;
 	
 
@@ -222,20 +222,10 @@ body {
 	//text-align: center;
 	font-family: 'alb_web_font-webfont', sans-serif;
 	color: #e92e33;
-	font-size: 8.5em;
-	padding-left: 16%;
+	font-size: 10em;
+	padding-left: 12%;
 	line-height: 0.5em;
 
-}
-
-
-.icon-title.header {
-
-	
-	font-size: 4.2em;
-	padding-left: 2%;
-	line-height: 1.25em;
-	color: #b62821;
 }
 
 
@@ -248,12 +238,12 @@ body {
 
 	font-family: 'Raleway', sans-serif;
 	color: #e92e33;
-	font-size: 0.9em;
+	font-size: 1em;
 	font-weight: 700;
 	text-align: left;
 	line-height: 30px;
 	letter-spacing: 1pt;
-	margin-left: 43px;
+	margin-left: 41px;
 	white-space: nowrap;
 
 
@@ -278,62 +268,94 @@ body {
 .big-button-text {
 
 	font-family: 'Raleway', sans-serif;
-	color: white;
-	font-size: 12px;
-	font-weight: 600;
+	color: #df453d;
+	font-size: 14px;
+	font-weight: 700;
 	letter-spacing: 1pt;
 	text-align: center;
 	line-height: 72px;
-	//text-shadow: 0 -1px rgba(0,0,0,0.1);
+	text-shadow: 0 -1px rgba(0,0,0,0.1);
 
 	
 }
 
 .big-button-text:hover {
 
-	color:#7f1c17;
-	//text-shadow: 0 1px rgba(255,255,255,0.8);
+	color:#858585;
+	text-shadow: 0 1px rgba(255,255,255,0.8);
 
 }
 
 .big-button-text:active {
 	
-	color:#7f1c17;
+	color:#b1b1b1;
 	text-shadow: none;
 }
 
 
+.big-button-text.red {
+	
+	color: #e2e2e2;
+	text-shadow: 0 -1px rgba(0,0,0,0.2);
+	
+}
+
+.big-button-text.red:hover{
+	
+	color: #7c1b17;
+	text-shadow: 0 1px rgba(255,255,255,0.2);
+	
+}
+
+.big-button-text.red:active {
+	
+	color: #93211b;
+	text-shadow: none;
+	
+	
+}
 
 
 .big-button {
 
-	
-	//text-align: center;
-	//background-image: url('../images/foundation/grey_button.png');
-	//background-repeat: no-repeat;
-	//background-position-x: 50%;
-	//background-position: 50% 0;
-	
-	 background-color: #d73027;
-
-	-webkit-mask-image: url(../images/foundation/BUTTON_SMALL_MASK.png);
-  	-webkit-mask-position: center;
-  	-webkit-mask-repeat: no-repeat;
-  	-webkit-mask-size: 70% 70%;
+	text-align: center;
+	background-image: url('../images/foundation/grey_button.png');
+	background-repeat: no-repeat;
+	background-position-x: 50%;
+	background-position: 50% 0;
 
 }
 
+.big-button:hover {
 
+	background-image: url('../images/foundation/grey_button_hover.png');
 
+}
+	
 
 .big-button:active {
 
-	background-color: #b62821;
+	background-image: url('../images/foundation/grey_button_press.png');
 	
 }
 
 
+.big-button.red {
+	
+	background-image: url('../images/foundation/red_button.png');
+	
+}
+.big-button.red:hover {
+	
+	background-image: url('../images/foundation/red_button_hover.png');
+	
+}
 
+.big-button.red:active {
+	
+	background-image: url('../images/foundation/red_button_press.png');
+	
+}
 
 
 
@@ -486,24 +508,17 @@ body {
 
 }
 
-.black {
-
-	color: #434343;
-}
-
 
 .text.paragraph {
 
-	font-size: 1.3em;
-	line-height: 2.2em;
-	color:black;
-	text-align: center;
+	line-height: 38px;
+	color:#717171
 }
 
 
 .text.big {
 
-	font-size: 2em;
+	font-size: 1.8em;
 	font-weight: 700;
 
 
@@ -700,7 +715,7 @@ body {
 
   			.icon-text.big {
 
-  				font-size: 0.9em;
+  				font-size: 1.2em;
 
   			} 
 
@@ -769,8 +784,6 @@ body {
 				z-index: 0;
 				top:0px;
 				margin-bottom: 12px;
-				font-size: 1.1em;
-				//font-weight: 600;
 
 
 				
@@ -802,7 +815,7 @@ body {
 			.header-icon-font {
 
 				color:#b62821;
-				font-size: 4.6em;
+				font-size: 5.2em;
 				line-height: 34px;
 
 			}
