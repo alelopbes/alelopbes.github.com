@@ -634,7 +634,11 @@ body {
 
 }
 
+.margin-buttons-small {
 
+	left: -50px;
+
+}
 
 
 /*------IMAGES------------------------*/
@@ -714,6 +718,19 @@ body {
 
  }
 
+ .link-none.english.small.wellcome {
+
+ 	color:#a4241e;
+ 	font-size: 1.0em;
+ 	font-family: 'Raleway', sans-serif;
+ 	font-weight: 700;
+ 	letter-spacing: 1pt;
+ 	text-align: none;
+ 	line-height: 0px;
+ 	margin-left: 0px;
+
+ }
+
 
  
 
@@ -733,27 +750,6 @@ body {
 
 
 
-
-/*------OLD------------------------*/
-
-
-
-
-
-
- .panel {
-
- 	padding: 0px;
- 	border:0px;
-
- }
-
-
-
-.orbit {
-
-	margin-bottom: 0px;
-}
 
 
 
@@ -786,8 +782,8 @@ body {
   					line-height: 0px;
   					margin-top: 15px;
   					//text-align: center;
-  					font-size: 0.35em;
-  					margin-left: 30px;
+  					font-size: 0.33em;
+  					margin-left: 20px;
 
   			}
 
@@ -802,9 +798,13 @@ body {
   			.icon-title {
 
 
-  					font-size: 3.1em;
+  					font-size: 2.8em;
+  					padding-left: 0px;
+  					text-align: center;
 
   			}
+
+
 
   			.icon-text.centered {
 
@@ -815,6 +815,8 @@ body {
 
 
   			}
+
+
 
 
   			.grey-bck-small {
@@ -831,6 +833,12 @@ body {
 
 			}
 
+			.false-header {
+
+				height: 44px;
+
+			}
+
 			.big-button {
 
 				background-position-y: 50%;
@@ -839,7 +847,8 @@ body {
 
 			.text.paragraph {
 
-				line-height: 28px;
+				line-height: 24px;
+				font-size: 1.1em;
 			}
 
 
@@ -889,6 +898,24 @@ body {
 
 			}
 
+			.center-buttons-header.wellcome {
+
+				top:37%;
+				left: -20px;
+
+		
+			}
+
+			
+
+			.english-text {
+
+			
+				top: 20px;
+				text-align: right;
+			}
+
+
 
 			.image-center-header-logo {
 
@@ -909,6 +936,11 @@ body {
 
 				color:white;
 				
+			}
+
+			.text.big  {
+
+				font-size: 1.6em;
 			}
 
 
@@ -954,6 +986,7 @@ body {
 			.icon-title {
 
 				padding-left: 0px;
+				font-size: 3.1em;
 				
 
 			}
