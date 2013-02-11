@@ -577,10 +577,11 @@ body {
 
 .text.paragraph {
 
-	font-size: 1.4em;
-	line-height: 2.2em;
+	font-size: 1.45em;
+	line-height: 2.1em;
 	color:black;
-	text-align: center;
+	text-align: justify;
+	letter-spacing:1pt;
 }
 
 
@@ -873,6 +874,7 @@ body {
 
 				line-height: 24px;
 				font-size: 1.1em;
+				text-align: left;
 			}
 
 
