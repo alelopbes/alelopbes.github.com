@@ -473,6 +473,11 @@ body {
 	
 }
 
+
+
+
+
+
 .center-back-button{
 
 	right: 10%;
@@ -577,11 +582,14 @@ body {
 
 .text.paragraph {
 
-	font-size: 1.45em;
-	line-height: 2.1em;
+	font-size: 1.30em;
+	line-height: 2;
 	color:black;
 	text-align: justify;
 	letter-spacing:1pt;
+	word-spacing: -1.5pt;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 
