@@ -1,0 +1,691 @@
+/* =======================================================================
+:: Custom styles for Alejandro Lopez website. 
+:: Design and Develop by Alejandro Lopez 2018.
+--------------------------------------------------------------------------
+    
+:: CSS INDEX ::
+
+::  1.0  General Styles 
+::  2.0  Text 
+::  3.0  Buttons 
+::  4.0  Landing 
+::  5.0  Navbar
+::  6.0  Panels
+::  7.0  Footer
+::  8.0  Side Nav
+::  9.0  Dot navigation
+:: 10.0  Carousel
+:: 11.0  Labels
+============================================== */
+
+/* ==========================================================================
+1.0 General Styles 
+========================================================================== */
+
+.img-margin-bottom {
+  margin-bottom: 30px;
+}
+
+.img-vert-padding-right {
+  padding-right: 15.64vw;
+}
+
+.img-vert-padding-left {
+  padding-left: 15.64vw;
+}
+
+a,
+a:visited,
+a:focus,
+a:hover {
+  color: @darkgrey;
+}
+
+body {
+  font-size: @baseFont;
+  background-color: @white;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: @darkgrey;
+
+  overflow-x: hidden;
+}
+
+section {
+  padding: 3.43vw 6.25vw;
+}
+
+.work-section { 
+  background-image: url(../images/redblock02.png), url(../images/redblock03.png), url(../images/redblock.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0, 0 50%, 100% 100%;
+  background-size: 45vw;
+ }
+
+ .about-section {
+  width: 100%;
+  height: 100vh;
+  
+  background-color: @grey;
+
+  background-image: url(../images/alejandrolopez.png), url(../images/redblock02.png);
+  background-repeat: no-repeat;
+  background-position: 70% 100%, 100% 0%;
+  background-size: 30%, 45vw;
+
+  a {
+    color: @red;
+    font-weight: normal;
+  } 
+ }
+
+ .block-shadow {
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+ }
+
+
+/* ==========================================================================
+2.0 Text
+========================================================================== */
+ 
+ h1 {
+  color: @red;
+  font-size: 3vw;
+  margin: 0 0 4.6vh 0;
+ }
+
+ h2 {
+  color: @darkgrey;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2vw;
+  line-height: 1.8;
+  margin: 0 0 4.6vh 0;
+ }
+
+ .alternative-font {
+  font-size: @baseFont;
+  color: @darkgrey;
+  font-family: 'Belgrano', serif;
+}
+
+
+/* ==========================================================================
+3.0 Buttons
+========================================================================== */
+
+.button {
+  background-color: @red;
+  border: none;
+  padding: 10px 32px;
+
+  color: @white;
+  font-size: @baseFont;
+  font-weight: 700;
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.4),inset 0px 1px 1px 0px rgba(255, 255, 255, 0.22);
+
+  -webkit-transition:  all .4s ease-out;
+  -o-transition:  all .4s ease-out;
+  transition: all .4s ease-out;
+
+  a {
+    color: inherit;
+  }
+}
+ 
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: @darkgrey;
+}
+
+.button-grey {
+  background-color: @darkgrey;
+}
+
+.sidebar-button {
+  top: 0;
+  right: 0;
+
+  background-color: transparent;
+  border:none;
+
+  background-image: url(../images/menuicon.svg);
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  background-size: 100%;
+  display: inline-block;
+  vertical-align: middle;
+
+}
+
+.close-button {
+  position: absolute;
+  z-index: 100;
+  top: 20px;
+  right: 20px;
+
+  background-image: url(../images/closeicon.svg);
+  background-repeat: no-repeat;
+  width: 42px;
+  height: 42px;
+  background-size: 100%;
+  display: inline-block;
+  vertical-align: text-top;
+
+}
+
+/* ==========================================================================
+4.0 Landing 
+========================================================================== */
+
+/**
+* Landing index
+*/
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+
+  padding: 3.43vw 6.1vh;
+
+  background-color: @grey;
+}
+
+.landing-overlay {
+  position: absolute;
+  z-index: 1000;
+
+  right: 0;
+  bottom: 0;
+
+  img {
+    width: 45vw;
+    height: auto;
+  }
+}
+
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: @white;
+  box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.14);
+}
+
+.landing-message {
+ padding: 0 0 0 3.33vw; 
+ margin-top: 25vh;
+
+ h1 {
+  text-transform: uppercase;
+   color: @red;
+  font-weight: 900;
+  font-size: 4vw;
+
+  padding: 0;
+  margin: 0 0 10px 0;
+ }
+ h2 {
+  font-style: italic;
+  color: @darkgrey;
+  font-weight: 400;
+  font-size: 2.8vw;
+  line-height: 0;
+
+  padding:0;
+  margin: 0;
+ }
+ h3 {
+  font-style: normal;
+  color: @darkgrey;
+  font-weight: 400;
+  font-size: 1.8vw;
+  line-height: 0;
+
+  padding: 0;
+  margin: 0 0 2px 0;
+ }
+}
+
+.landing-scroll {
+  padding: 0 0 25px 3.33vw;
+  margin-top: auto;
+  .alternative-font;
+  font-size: @fontXs;
+  p {
+    display: inline-block;
+  }
+
+ } 
+
+ .scroll-icon {
+  background-image: url(../images/ScrollDown.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+
+ }
+
+/**
+* Landing for works pages
+*/
+
+.landing-works {
+  margin-top: 120px;
+  padding: 3.43vw 0 3.43vw 6.1vh;
+  height: ~"calc(100vh - 120px)";
+
+  // background-color: @white;
+
+  background-image: url(../images/redblock.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 45vw;
+  }
+
+.external-link {
+  background-image: url(../images/externallink.svg);
+  background-repeat: no-repeat;
+  width: 34px;
+  height: 34px;
+  display: inline-block;
+  vertical-align: inherit;
+  margin-left: 20px;
+} 
+
+/* ==========================================================================
+5.0 Navbar 
+========================================================================== */
+
+/**
+* Nav bar for landing page
+*/
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  align-content: center;
+
+  padding: 0 0 0 3.33vw; 
+
+  width: 100%;
+  height: 150px;
+
+  
+ // Logo
+ .nav-logo {
+  width: 80px;
+  height: 80px;
+
+  background-image: url(../images/alblogo.svg);
+  background-repeat: no-repeat;
+
+ }
+
+ // Nav elements for landing page
+ ul {
+  li {
+   display: inline-block;
+   padding: 0 @baseSpace 0 0 ; 
+
+   a {
+    text-decoration: none;
+    font-weight: 700;
+    color: @darkgrey;
+
+    opacity: 1;
+
+    -webkit-transition:  all .4s ease-out;
+    -o-transition:  all .4s ease-out;
+    transition: all .4s ease-out; 
+
+   }
+   //Hover state for nav elements
+   a:hover,
+   a:focus {
+    color: @red;
+    text-decoration: none;
+   }
+  }
+  
+  // Separator between nav elements
+  li.navlink-separator:after {
+   content:"|"; 
+   color: @red;
+   padding: 0 0 0 @baseSpace ;
+   font-size: 17px; 
+  }
+ } //End of ul
+ .sidebar-button {
+  margin-left: auto;
+  order: 2
+ }
+}// End of nav
+
+
+/**
+* Social icons
+*/
+
+.linkedin-icon {
+  background-image: url(../images/likedin.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.twitter-icon {
+  background-image: url(../images/twitter.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+/**
+* Nav bar fixed
+*/
+
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  padding: 0 3.43vw;
+  background-color: @white;
+
+  height: 120px;
+
+// Next Previous project
+ ul.project-selector {
+  li {
+    .alternative-font;
+   a {
+   .alternative-font;
+  
+    -webkit-transition:  all .4s ease-out;
+    -o-transition:  all .4s ease-out;
+    transition: all .4s ease-out; 
+   }
+   //Hover state for nav elements
+   a:hover,
+   a:focus {
+    color: @red;
+   }
+  }
+  li:hover span {
+    -webkit-animation-name: shake; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: .3s; /* Safari 4.0 - 8.0 */
+    animation-name: shake;
+    animation-duration: .3s;
+    animation-iteration-count: 2;
+   }
+   @keyframes shake {
+       0%   { transform: translate(0px) }
+      50% { transform: translate(6px) }
+      100% { transform: translate(0px) }
+    }
+
+  // Inactive state
+  li.project-selector-inactive {
+    opacity: 0.2;
+    //Hover state for nav elements
+    a {
+      pointer-events: none;
+    }
+     a:hover,
+     a:focus {
+      color: @darkgrey;
+     }
+  }
+  li.project-selector-inactive:hover span {
+    -webkit-animation-name: none; /* Safari 4.0 - 8.0 */
+    animation-name: none;
+  }  
+ } //End of ul
+ .button {
+  margin-left: auto;
+  order: 2
+ }
+} //End of navbar-fixed
+
+.chevron-left {
+  background-image: url(../images/chevronleft.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.chevron-right {
+  background-image: url(../images/chevronright.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+
+/* ==========================================================================
+6.0 Panels 
+========================================================================== */
+.panel {
+  .panel-info-vert-left {
+    width: ~"calc(100% - 15.64vw - 15px)" !important;
+    left:  15.64vw !important;
+  }
+
+  .panel-info-vert-right {
+    width: ~"calc(100% - 15.64vw - 15px)" !important;
+    right:  15.64vw !important;
+  }
+
+  .panel-info-wrapper {
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+
+    -webkit-transition:  all .4s ease-out;
+    -o-transition:  all .4s ease-out;
+    transition: all .4s ease-out; 
+  }
+
+  .panel-info {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 100%;
+    width: ~"calc(100% - 30px)";
+    opacity: 0;
+    background-color: @grey;
+
+    -webkit-transition:  all .8s ease-out;
+    -o-transition:  all .8s ease-out;
+    transition: all .8s ease-out; 
+
+    text-align: center;
+
+    .panel-text {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+
+      h2 {
+        margin: 0;
+        color: @red;
+        font-weight: 900;
+      }
+
+      h3 {
+        .alternative-font;
+        margin: 0;
+        color: @darkgrey;
+        font-weight: normal;
+      }
+    }
+  }
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    -webkit-transition:  all .4s ease-out;
+    -o-transition:  all .4s ease-out;
+    transition: all .4s ease-out; 
+  }
+}
+
+.panel-info-wrapper:hover {
+   box-shadow: 0 8px 20px 0px rgba(0,0,0,0.30);
+}
+
+.panel-info-wrapper:hover .panel-info {
+    opacity: 1;
+}
+
+/* ==========================================================================
+7.0 Footer
+========================================================================== */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 12vh;
+  background-color: @red;
+
+ img {
+  width: 100%;
+  height: 6vh;
+ }
+
+}
+
+
+/* ==========================================================================
+8.0 Side Nav
+========================================================================== */
+
+.sidebar-menu{
+  display: none;
+}
+
+
+/* ==========================================================================
+9.0 Dot navigation 
+========================================================================== */
+
+.dotnav-wrapper {
+  position: fixed;
+  z-index: 1200;  
+  top: 50%; 
+  bottom: 0; 
+  right: 2%;
+
+  font-family: 'Belgrano', serif;
+  font-size: 15px;
+
+  ul.dotnav-list {
+    list-style-type: none;
+    margin-bottom: 0px;
+    a {
+      color: @darkgrey;
+
+      -webkit-transition:  all .4s ease-out;
+      -o-transition:  all .4s ease-out;
+      transition: all .4s ease-out; 
+
+      li {
+        opacity: 0.3;
+        margin-bottom: 8px;
+
+        -webkit-transition:  all .4s ease-out;
+        -o-transition:  all .4s ease-out;
+        transition: all .4s ease-out; 
+      }
+      li:before {
+        content: "+";
+        margin-right: 8px;
+      }
+    }
+
+    a:hover {
+      li { 
+         opacity: 1;
+       } 
+    }
+
+    .dotnav-list-active {
+      color: @darkgrey;
+
+      li {
+        opacity: 1;
+      }
+
+    } 
+  }
+}
+
+/* ==========================================================================
+10.0 Carousel
+========================================================================== */
+.carousel-custom {
+  box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.25), 0px 0px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-indicators li {
+  background-color: @darkgrey;
+  opacity: 0.6;
+  border-radius: 0;
+  border:none;
+
+}
+
+.carousel-indicators .active {
+  background-color: @red;
+  opacity: 1;
+  border:none;
+}
+
+
+/* ==========================================================================
+11.0 Labels
+========================================================================== */
+
+.label {
+  background-color: @white;
+  color: @red;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: normal;
+  border-radius: 0;
+
+  padding: .3em .7em;
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15),inset 0px 1px 1px 0px rgba(255, 255, 255, 0.18);
+
+  margin-right: 5px;
+}
+
+

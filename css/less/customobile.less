@@ -1,0 +1,296 @@
+/* =======================================================================
+
+:: Custom mobile styles for Alejandro Lopez website. 
+:: Design and Develop by Alejandro Lopez 2018.
+
+--------------------------------------------------------------------------
+    
+:: CSS INDEX ::
+
+::  1.0  General Styles 
+::  2.0  Text 
+::  3.0  Buttons 
+::  4.0  Landing 
+::  5.0  Navbar
+::  6.0  Panels
+::  7.0  Footer
+::  8.0  Side Nav
+::  9.0  Dot navigation
+:: 10.0  Carousel
+:: 11.0  Labels
+
+
+============================================== */
+
+ /* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+
+/* ==========================================================================
+1.0 General Styles 
+========================================================================== */
+
+.img-vert-padding-right {
+  padding-right: 15px;
+}
+
+.img-vert-padding-left {
+  padding-left: 15px;
+}
+section {
+  padding: 7.43vw 3.1vh;
+}
+
+.about-section {
+  background-image:  url(../images/redblock02.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  background-size: 45vw;
+ }
+
+/* ==========================================================================
+2.0 Text
+========================================================================== */
+ 
+ h1 {
+  font-size: 10vw;
+  margin: 0 0 2.6vh 0;
+ }
+
+ h2 {
+  font-size: 4.2vw;
+  line-height: 1.8;
+  margin: 0 0 4.6vh 0;
+ }
+
+ /* ==========================================================================
+3.0 Buttons
+========================================================================== */
+
+.button {
+   font-size: 14px;
+}
+
+/* ==========================================================================
+4.0 Landing
+========================================================================== */
+
+/**
+* Landing index
+*/
+
+.landing {
+  padding: 4.43vw 2.5vh;
+
+}
+
+.landing-message {
+ h1 {
+  font-size: 10vw;
+ }
+
+ h2 {
+  font-size: 8.8vw;
+ }
+
+ h3 {
+  font-size: 7.8vw;
+  margin: 0 0 10px 0;
+ }
+}
+
+
+/**
+* Landing for works pages
+*/
+
+.landing-works {
+  margin-top: 80px;
+  padding: 6.43vw 3.1vh;
+  height: auto;
+
+  background-image: url(../images/redblock.png);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: 45vw;
+}
+
+
+
+/* ==========================================================================
+5.0 Navbar
+========================================================================== */
+
+nav {
+  padding: 0 3.33vw 0 3.33vw;
+  height: 80px;
+  .nav-logo {
+    background-size: 48%;
+    margin-top: 24px;
+  }
+}
+/**
+* Nav bar fixed
+*/
+.navbar-fixed {
+  height: 80px;
+
+  .nav-logo {
+    background-size: 48%;
+    margin-top: 24px;
+  }
+}
+
+/* ==========================================================================
+8.0 Side nav
+========================================================================== */
+/* The side navigation menu */
+.sidenav {
+  display: block;
+  height: 100vh; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 201; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: @red; 
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidenav */ 
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+    list-style: none;
+
+    text-align: center;
+    li {
+      margin-bottom: 18px;
+      a {
+        color: @white;
+        font-weight: 900;
+        font-size: 32px;
+      }
+    }
+
+  }
+  .sidenav-social {
+    position: absolute;
+    z-index: 100;
+    bottom: 20px;
+    width: 100%;
+
+    text-align: center;
+  }
+}
+
+/* ==========================================================================
+6.0 Panels 
+========================================================================== */
+
+.panel {
+  .panel-info-vert-left {
+    width: 100% !important;
+    left:  0 !important;
+  } 
+  .panel-info-vert-right {
+    width: 100% !important;
+    right:  0 !important;
+  } 
+  .panel-info {
+    position: relative;
+    left: 0;
+
+    height: 100%;
+    width: 100%;
+
+    opacity: 1;
+    background-color: transparent;
+
+    -webkit-transition:  all .8s ease-out;
+    -o-transition:  all .8s ease-out;
+    transition: all .8s ease-out; 
+
+    text-align: center;
+
+    .panel-text {
+      position: relative;
+      top: 0;
+      transform: none;
+
+      text-align: left;
+      padding: 20px 0 35px 20px;
+
+      background-color: @white;
+
+      h2 {
+        margin: 0;
+        color: @red;
+        font-size: 8vw;
+        font-weight: 700;
+      }
+
+      h3 {
+        margin: 0;
+        color: @darkgrey;
+        font-size: 4vw;
+        font-weight: normal;
+      }
+    }
+  }
+}
+
+
+}  /* End of Medium Devices, Desktops */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
